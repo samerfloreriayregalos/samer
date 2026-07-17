@@ -477,7 +477,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#db2777'; }}
             onClick={() => {
               const message = `Hola, me interesa el arreglo: ${product.name}. ${product.description}`;
-              window.open(`https://wa.me/51992741960?text=${encodeURIComponent(message)}`, '_blank');
+              window.open(`https://wa.me/51961144177?text=${encodeURIComponent(message)}`, '_blank');
             }}
           >
             💬 Consultar por WhatsApp
