@@ -9,7 +9,7 @@ export interface WhatsAppMessage {
 export const generateWhatsAppLink = (
   message: WhatsAppMessage
 ): string => {
-  const waNumber = process.env.NEXT_PUBLIC_WA_NUMBER || '51992741960';
+  const waNumber = process.env.NEXT_PUBLIC_WA_NUMBER || '51961144177';
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
   const text = `Hola! 👋 Me interesa este producto:
